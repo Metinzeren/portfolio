@@ -1,0 +1,64 @@
+.skills{
+    background-color: #1C1C34;
+}
+.bg{
+    background : linear-gradient(90deg, #4CB5F6, #206e9e);
+    background-color: #2A2B66;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 122px;
+}
+.skill-parent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+}
+.heading-bullet{
+    position: absolute;
+    left: -30px;
+    height: 15px;
+    width: 0px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: #ff5823;
+}
+.skill-parent span{
+    font-family: "Poppins Bold";
+    font-size: 20px;
+    color: #fff;
+}
+.skill-parcengete{
+    position: relative;
+    height: 15px;
+    width: 70%;
+    background-color: #fff;
+}
+
+.active-parcengete{
+    height: 15px;
+    transition: .8s ease;
+    position: absolute;
+    background-color: #1C1C34;
+}
+.caro-flex{
+    display: flex;
+}
+.skill-title h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 33px;
+    color: #fff;
+}
+.interes span{
+    font-size: 24px;
+    color: #fff;
+}
+.caro-flex-r{
+    display: flex;
+    justify-content: space-between;
+}
+.interes p{
+    color:#fff;
+}

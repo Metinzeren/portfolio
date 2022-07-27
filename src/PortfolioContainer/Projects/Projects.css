@@ -1,0 +1,77 @@
+.project{
+    background-color: #1C1C34;
+    padding-bottom: 20px;
+}
+.project-title {
+    margin-bottom: 1rem;
+  }
+.project-title h1{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      font-size: 33px;
+      color: #fff;
+}
+.project-mid{
+    background : linear-gradient(90deg, #4CB5F6, #206e9e);
+    background-color: #2A2B66;
+    box-shadow: rgb(92, 144, 200) 0px 10px 20px -10px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.project-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-item{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   height: 200px;
+   width: 200px;
+    margin: 10px;
+}
+.project-item span{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.project-item img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    height: 140px;
+}
+.project-item img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(2.3);
+    z-index: 1000;
+    object-fit: cover;
+    height: 200px;
+}
+.project-title h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .project-title h1{
+        font-size: 25px;
+    }
+    .project-title h3{
+        font-size: 15px;
+    }
+   .project-all{
+         flex-direction: column;
+   }
+   .project-item img:hover{
+    width: 66%;
+    margin: auto;
+}
+}
